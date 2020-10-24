@@ -4,9 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -197,7 +195,6 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  
 }
 
 svg {
@@ -4728,7 +4725,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(223, 5, 5, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 
@@ -4764,7 +4761,6 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
-  
 }
 
 .card-title {
@@ -4837,19 +4833,18 @@ input[type="button"].btn-block {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
-
 }
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
 .card-deck .card {
@@ -4912,11 +4907,11 @@ input[type="button"].btn-block {
   }
   .card-group > .card:not(:first-child) .card-img-top,
   .card-group > .card:not(:first-child) .card-header {
-    border-top-left-radius: 1;
+    border-top-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-bottom,
   .card-group > .card:not(:first-child) .card-footer {
-    border-bottom-left-radius: 1;
+    border-bottom-left-radius: 0;
   }
 }
 
