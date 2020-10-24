@@ -9,9 +9,6 @@ body{
   background-color: #f5f5f5;
 }
 
-body, button{
-  font: 600 18px 'Roboto', sans-serif;
-}
 
 main{
   margin-bottom: 10px;
@@ -61,6 +58,10 @@ main .card::after{
 }
 .card-paulo3 img{
   height: 23rem;
+}
+
+.img-3{
+  transform: translateX(100px);
 }
 
 #footer{
