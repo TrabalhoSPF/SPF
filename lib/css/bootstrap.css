@@ -4543,6 +4543,8 @@ tbody.collapse.show {
 }
 
 .card-img-bottom {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
   width: 100%;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
@@ -4643,6 +4645,15 @@ tbody.collapse.show {
   .card-group > .card:last-child .card-footer {
     border-bottom-left-radius: 0;
   }
+
+  .card-group > .card:not(:first-child) .card-img-top,
+  .card-group > .card:not(:first-child) .card-header {
+    border-top-left-radius: 0;
+  }
+  .card-group > .card:not(:first-child) .card-img-bottom,
+  .card-group > .card:not(:first-child) .card-footer {
+    border-bottom-left-radius: 0;
+
   .card-group > .card:only-child {
     border-radius: 0.25rem;
   }
@@ -4665,7 +4676,6 @@ tbody.collapse.show {
   .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-footer {
     border-radius: 0;
   }
-}
 
 .card-columns .card {
   margin-bottom: 0.75rem;
