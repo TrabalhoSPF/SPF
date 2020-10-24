@@ -1,12 +1,69 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-  width: 100vw;
+  width: 100%;
+  background-color: #f5f5f5;
 }
 
-body, button{
-  font: 600 18px sans-serif;
+main{
+  margin-bottom: 10px;
+}
+
+main.bio .jumbotron{
+  width: 45%;
+}
+
+main div.title{
+  width: 100%;
+  text-align: center;
+  background-color: #dbe1f2;
+}
+.jumbotron .card{
+  z-index: 10;
+}
+
+main .card::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #ade8f4;
+  z-index: -1;
+  position: absolute;
+  right: -12px;
+  bottom: -20px;
+}
+
+.card-paulo1{
+  right: -60px;
+}
+.card-paulo2{
+  bottom: 40px;
+  right: -300px;
+}
+.card-paulo3{
+  top: -41rem;
+  right: 11rem;
+}
+
+.card-paulo1 img{
+  width: 18rem;
+}
+.card-paulo2 img{
+  width: 21rem;
+}
+.card-paulo3 img{
+  height: 23rem;
+}
+#img-2{
+  transform: translateX(150px);
+}
+
+#footer{
+  background-color: #56cfe1;
+  padding: 10px 0;
+  width: 100%;
 }
