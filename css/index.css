@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+}
+
+body, button{
+  font: 600 18px sans-serif;
+}
