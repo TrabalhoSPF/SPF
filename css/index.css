@@ -64,6 +64,74 @@ main .card::after{
   transform: translateX(100px);
 }
 
+.card-paulo2::after{
+  top: -20px; 
+}
+.card-paulo3::after{
+  right: 0;
+  left: -20px;
+  top: -11px;
+}
+
+.quotes{
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.quotes h2{
+  flex-basis: 100%;
+}
+
+.quotes .card{
+  flex-basis: 30%;
+  margin: 25px auto;
+  padding: 16px 10px;
+  border: none;
+}
+
+.quotes .card::before{
+  content: '"';
+  font-size: 104px;
+  position: absolute;
+  top: -52px;
+}
+.quotes .card::after{
+  border-radius: 5px
+}
+.quotes .card:nth-child(2){
+  background-color: #ffcbf2;
+}
+.quotes .card:nth-child(3){
+  background-color: #f3c4fb;
+}
+.quotes .card:nth-child(4){
+  background-color: #ecbcfd;
+}
+.quotes .card:nth-child(5){
+  background-color: #e5b3fe;
+}
+.quotes .card:nth-child(6){
+  background-color: #e2afff;
+}
+.quotes .card:nth-child(7){
+  background-color: #deaaff;
+}
+.quotes .card:nth-child(8){
+  background-color: #d8bbff;
+}
+.quotes .card:nth-child(9){
+  background-color: #d0d1ff;
+} 
+.quotes .card:nth-child(10){
+  background-color: #c8e7ff;
+}
+.quotes .card:nth-child(11){
+  background-color: #c0fdff;
+}
+.quotes .card:nth-child(12){
+  background-color: #85f0fb;
+}
+
 #footer{
   background-color: #56cfe1;
   padding: 10px 0;
