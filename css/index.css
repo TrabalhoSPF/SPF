@@ -76,6 +76,7 @@ main .card::after{
 .quotes{
   flex-flow: row wrap;
   justify-content: center;
+  margin: 2.5rem 0;
 }
 
 .quotes h2{
